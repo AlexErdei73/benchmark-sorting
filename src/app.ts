@@ -1,4 +1,5 @@
 import { mergeSort } from './mergesort';
+import { bubbleSort } from './bubblesort';
 
 const arr = [5, 4, 8, 10, 9, 3, 2, 1, 7, 6];
 
@@ -13,3 +14,6 @@ function arraySort(arr: number[]):number[] {
 
 sortedArray = arraySort(arr);
 console.log("Array Sort: ", sortedArray);
+
+sortedArray = bubbleSort(arr);
+console.log("Bubble sort: ", sortedArray);
