@@ -10,3 +10,19 @@ We know that O(N) is N*log N for the merge-sort and N^2 for the bubble sort. It 
 this trend is valid only for large, theoretically infinite N. This is also the worse case scenario, because the execution time depends on the dataset too. If the array is already sorted before the operation, bubble-sort is faster, because no need to swap the array elements.
 It's an interesting question that in practice how big N is supposed to be to see the theoretical differences. It is
 also interesting how the method, which JS provides performs. We will do this examination by the benchmark tool [tinybench](https://github.com/tinylibs/tinybench). The project will work in the form of a NodeJS app with Typescript.
+
+## Usage
+```
+    git clone git@github.com:AlexErdei73/benchmark-sorting.git
+    cd benchmark-sorting
+    npm i
+    npx tsc
+    npm start
+```
+NodeJS must be installed on the system.
+
+## Results in my computer
+![Alt benchmark results](Screenshot.png)
+
+## Interpretation
+Please read this [LinkedIn post](https://www.linkedin.com/posts/alex-erdei_benchmarking-sorting-algorithms-most-of-us-activity-7253095618003259393-RZ2d?utm_source=share&utm_medium=member_desktop)
