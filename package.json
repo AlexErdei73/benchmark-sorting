@@ -29,5 +29,8 @@
     "concurrently": "^9.0.1",
     "nodemon": "^3.1.7",
     "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "tinybench": "^2.9.0"
   }
 }
